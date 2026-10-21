@@ -1,0 +1,43 @@
+[
+  {
+    "name": "cast-firebolt",
+    "layers": [
+      { "sound": "shots.json#wand-shot", "gain": -3 },
+      { "sound": "spells.json#firebolt", "offset": 0.03, "gain": -2 }
+    ],
+    "output": { "normalize": -1 }
+  },
+  {
+    "name": "cast-ice-flechette",
+    "layers": [
+      { "sound": "shots.json#wand-shot", "gain": -3 },
+      { "sound": "spells.json#ice-flechette-hiss", "offset": 0.02, "gain": -1 }
+    ],
+    "output": { "normalize": -1 }
+  },
+  {
+    "name": "cast-lightning",
+    "layers": [
+      { "sound": "menace.json#wand-shot-dark", "gain": -4 },
+      { "sound": "lightning.json#lightning-strike", "offset": 0.04 },
+      { "sound": "lightning.json#lightning-crackle", "offset": 0.25, "gain": -8 },
+      { "sound": "storm.json#thunderbolt", "offset": 0.08, "gain": -6 }
+    ],
+    "output": { "normalize": -1 }
+  },
+  {
+    "name": "doom-fire",
+    "layers": [
+      { "sound": "#cast-firebolt" },
+      { "sound": "menace.json#doom-bolt", "gain": -7 }
+    ],
+    "output": { "normalize": -1, "padEnd": 0.05 }
+  },
+  {
+    "name": "inline-example",
+    "layers": [
+      { "sound": { "preset": "laserShoot", "seed": 5 } },
+      { "sound": { "params": { "wave_type": "noise", "p_base_freq": 0.2, "p_env_decay": 0.4 } }, "offset": 0.05, "gain": -6 }
+    ]
+  }
+]

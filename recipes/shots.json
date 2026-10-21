@@ -1,0 +1,52 @@
+[
+  {
+    "name": "wand-shot",
+    "b58": "5EoyNVSymuxD8s7HP1ixqdaCn5uVGEgwQ3kJBR7bSoApFQzm7E4zZPW2EcXm3jmNdTtTPeDuvwjY8z4exqaXz3NGBHRKBx3igYfBBMRBxDALhBSvzkF6VE2Pv",
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "blaster-zap",
+    "params": {
+      "wave_type": "sawtooth",
+      "p_env_attack": 0,
+      "p_env_sustain": 0.1,
+      "p_env_punch": 0.45,
+      "p_env_decay": 0.26,
+      "p_base_freq": 0.95,
+      "p_freq_ramp": -0.62,
+      "p_freq_dramp": 0.75,
+      "p_pha_offset": -0.45,
+      "p_pha_ramp": 0.2,
+      "p_lpf_freq": 0.9,
+      "p_lpf_ramp": -0.25,
+      "sound_vol": 0.25
+    },
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "blaster-double",
+    "params": {
+      "wave_type": "sine",
+      "p_env_attack": 0,
+      "p_env_sustain": 0.2,
+      "p_env_punch": 0.35,
+      "p_env_decay": 0.34,
+      "p_base_freq": 0.95,
+      "p_freq_ramp": -0.75,
+      "p_freq_dramp": 0.75,
+      "p_vib_strength": 0.2,
+      "p_vib_speed": 0.45,
+      "p_repeat_speed": 0.55,
+      "p_pha_offset": -0.9,
+      "p_pha_ramp": 0.1,
+      "sound_vol": 0.3
+    },
+    "output": {
+      "normalize": -1
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "sound-forge",
+  "version": "1.0.0",
+  "description": "Render jsfxr JSON sound recipes to FLAC/WAV files",
+  "type": "module",
+  "bin": {
+    "sound-forge": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "render": "node src/cli.ts",
+    "examples": "node src/cli.ts recipes/*.json -o out"
+  },
+  "dependencies": {
+    "jsfxr": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

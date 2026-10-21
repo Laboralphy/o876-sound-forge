@@ -1,0 +1,18 @@
+{
+  "name": "laser",
+  "params": {
+    "wave_type": "sawtooth",
+    "p_env_attack": 0,
+    "p_env_sustain": 0.18,
+    "p_env_punch": 0.2,
+    "p_env_decay": 0.25,
+    "p_base_freq": 0.75,
+    "p_freq_limit": 0.2,
+    "p_freq_ramp": -0.35,
+    "p_duty": 0.3,
+    "p_duty_ramp": 0.15,
+    "p_hpf_freq": 0.1,
+    "sound_vol": 0.3
+  },
+  "output": { "format": "wav", "bitDepth": 24 }
+}

@@ -1,0 +1,6 @@
+[
+  { "name": "explosion", "preset": "explosion", "seed": 1234, "output": { "padEnd": 0.1 } },
+  { "name": "jump", "preset": "jump", "seed": 42, "params": { "p_env_decay": 0.3 } },
+  { "name": "powerup-variant", "preset": "powerUp", "seed": 3, "mutations": 2 },
+  { "name": "share-link", "b58": "5EoyNVSymuxD8s7HP1ixqdaCn5uVGEgwQ3kJBR7bSoApFQzm7E4zZPW2EcXm3jmNdTtTPeDuvwjY8z4exqaXz3NGBHRKBx3igYfBBMRBxDALhBSvzkF6VE2Pv", "output": { "sampleRate": 22050 } }
+]

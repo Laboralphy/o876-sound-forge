@@ -1,0 +1,6 @@
+{
+  "name": "coin",
+  "preset": "pickupCoin",
+  "seed": 7,
+  "output": { "format": "flac", "normalize": -3 }
+}
