@@ -1,0 +1,155 @@
+[
+  {
+    "name": "fire-explosion",
+    "layers": [
+      {
+        "sound": "hit-parts.json#fire-boom"
+      },
+      {
+        "sound": "spells.json#firebolt",
+        "offset": 0.02,
+        "gain": -4
+      },
+      {
+        "sound": "hit-parts.json#fire-crackle",
+        "offset": 0.15,
+        "gain": -9
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "ice-shatter",
+    "layers": [
+      {
+        "sound": "hit-parts.json#ice-crack"
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-high",
+        "offset": 0.02,
+        "gain": -4
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-low",
+        "offset": 0.05,
+        "gain": -6
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-high",
+        "offset": 0.11,
+        "gain": -9
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-low",
+        "offset": 0.17,
+        "gain": -12
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-high",
+        "offset": 0.26,
+        "gain": -13
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-low",
+        "offset": 0.36,
+        "gain": -16
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-high",
+        "offset": 0.47,
+        "gain": -18
+      },
+      {
+        "sound": "hit-parts.json#ice-shard-high",
+        "offset": 0.6,
+        "gain": -22
+      },
+      {
+        "sound": "spells.json#ice-flechette-hiss",
+        "gain": -8
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "acid-splash",
+    "layers": [
+      {
+        "sound": "hit-parts.json#acid-splat"
+      },
+      {
+        "sound": "acid.json#acid-sizzle",
+        "offset": 0.04,
+        "gain": -6
+      },
+      {
+        "sound": "acid.json#acid-bubble",
+        "offset": 0.06,
+        "gain": -5
+      },
+      {
+        "sound": "acid.json#acid-corrode",
+        "offset": 0.1,
+        "gain": -10
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "electric-blast",
+    "layers": [
+      {
+        "sound": "hit-parts.json#elec-impact"
+      },
+      {
+        "sound": "storm.json#electric-blast",
+        "offset": 0.01,
+        "gain": -3
+      },
+      {
+        "sound": "storm.json#electric-zap",
+        "offset": 0.05,
+        "gain": -7
+      },
+      {
+        "sound": "lightning.json#lightning-crackle",
+        "offset": 0.2,
+        "gain": -10
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "magic-explosion",
+    "layers": [
+      {
+        "sound": "hit-parts.json#magic-burst"
+      },
+      {
+        "sound": "menace.json#doom-bolt",
+        "gain": -5
+      },
+      {
+        "sound": "hit-parts.json#magic-shimmer",
+        "offset": 0.05,
+        "gain": -6
+      },
+      {
+        "sound": "wand.json#wand-cast-sparkle",
+        "offset": 0.12,
+        "gain": -9
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  }
+]

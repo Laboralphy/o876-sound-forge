@@ -1,0 +1,163 @@
+[
+  {
+    "name": "chicken-puzzled",
+    "layers": [
+      {
+        "sound": "chicken-parts.json#cluck",
+        "offset": 0.0,
+        "gain": -3
+      },
+      {
+        "sound": "chicken-parts.json#cluck",
+        "offset": 0.34,
+        "gain": -4
+      },
+      {
+        "sound": "chicken-parts.json#cluck-high",
+        "offset": 0.66,
+        "gain": -3
+      },
+      {
+        "sound": "chicken-parts.json#cluck-high",
+        "offset": 0.78,
+        "gain": -4
+      },
+      {
+        "sound": "chicken-parts.json#bawk-question",
+        "offset": 1.1,
+        "gain": 0
+      }
+    ],
+    "output": {
+      "normalize": -1,
+      "padEnd": 0.05
+    }
+  },
+  {
+    "name": "chicken-frightened",
+    "layers": [
+      {
+        "sound": "chicken-parts.json#squawk",
+        "offset": 0.0
+      },
+      {
+        "sound": "chicken-parts.json#squawk",
+        "offset": 0.13,
+        "gain": -1
+      },
+      {
+        "sound": "chicken-parts.json#squawk-long",
+        "offset": 0.27
+      },
+      {
+        "sound": "chicken-parts.json#squawk",
+        "offset": 0.72,
+        "gain": -1
+      },
+      {
+        "sound": "chicken-parts.json#squawk",
+        "offset": 0.84,
+        "gain": -2
+      },
+      {
+        "sound": "chicken-parts.json#squawk-long",
+        "offset": 0.97,
+        "gain": -1
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.03,
+        "gain": -6
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.105,
+        "gain": -6.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.18,
+        "gain": -7.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.255,
+        "gain": -7.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.33,
+        "gain": -8.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.405,
+        "gain": -8.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.48,
+        "gain": -9.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.555,
+        "gain": -9.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.63,
+        "gain": -10.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.705,
+        "gain": -10.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.78,
+        "gain": -11.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.855,
+        "gain": -11.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 0.93,
+        "gain": -12.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 1.005,
+        "gain": -12.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 1.08,
+        "gain": -13.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 1.155,
+        "gain": -13.5
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 1.23,
+        "gain": -14.0
+      },
+      {
+        "sound": "chicken-parts.json#flap",
+        "offset": 1.305,
+        "gain": -14.5
+      }
+    ],
+    "output": {
+      "normalize": -1,
+      "padEnd": 0.05
+    }
+  }
+]

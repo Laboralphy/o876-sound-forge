@@ -1,0 +1,99 @@
+[
+  {
+    "name": "acid-sizzle",
+    "seed": 41,
+    "params": {
+      "wave_type": "noise",
+      "p_env_attack": 0.04,
+      "p_env_sustain": 0.4,
+      "p_env_punch": 0.35,
+      "p_env_decay": 0.62,
+      "p_base_freq": 0.55,
+      "p_freq_ramp": -0.04,
+      "p_vib_strength": 0.5,
+      "p_vib_speed": 0.62,
+      "p_pha_offset": 0.12,
+      "p_pha_ramp": -0.04,
+      "p_lpf_freq": 0.45,
+      "p_lpf_resonance": 0.85,
+      "p_hpf_freq": 0.18,
+      "sound_vol": 0.35
+    },
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "acid-bubble",
+    "params": {
+      "wave_type": "sine",
+      "p_env_attack": 0,
+      "p_env_sustain": 0.35,
+      "p_env_punch": 0.3,
+      "p_env_decay": 0.5,
+      "p_base_freq": 0.32,
+      "p_freq_ramp": 0.35,
+      "p_vib_strength": 0.3,
+      "p_vib_speed": 0.55,
+      "p_arp_mod": 0.35,
+      "p_arp_speed": 0.8,
+      "p_repeat_speed": 0.78,
+      "p_pha_offset": 0.06,
+      "p_pha_ramp": 0.08,
+      "p_lpf_freq": 0.8,
+      "p_lpf_resonance": 0.5,
+      "p_hpf_freq": 0.08,
+      "sound_vol": 0.3
+    },
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "acid-corrode",
+    "seed": 43,
+    "params": {
+      "wave_type": "noise",
+      "p_env_attack": 0.02,
+      "p_env_sustain": 0.35,
+      "p_env_punch": 0.5,
+      "p_env_decay": 0.6,
+      "p_base_freq": 0.28,
+      "p_freq_ramp": -0.06,
+      "p_vib_strength": 0.4,
+      "p_vib_speed": 0.45,
+      "p_pha_offset": 0.22,
+      "p_pha_ramp": -0.12,
+      "p_lpf_freq": 0.75,
+      "p_lpf_ramp": -0.1,
+      "p_lpf_resonance": 0.85,
+      "p_hpf_freq": 0.1,
+      "sound_vol": 0.35
+    },
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "toxic-missile",
+    "layers": [
+      {
+        "sound": "#acid-sizzle",
+        "gain": -1
+      },
+      {
+        "sound": "#acid-bubble",
+        "offset": 0.05,
+        "gain": -7
+      },
+      {
+        "sound": "#acid-corrode",
+        "offset": 0.02,
+        "gain": -5
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  }
+]

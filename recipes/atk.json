@@ -1,0 +1,36 @@
+[
+  {
+    "name": "atk_toxic",
+    "layers": [
+      {
+        "sound": "shots.json#wand-shot",
+        "gain": -3
+      },
+      {
+        "sound": "acid.json#acid-corrode",
+        "offset": 0.03,
+        "gain": -2
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  },
+  {
+    "name": "atk_magic",
+    "layers": [
+      {
+        "sound": "shots.json#wand-shot",
+        "gain": -3
+      },
+      {
+        "sound": "hit-parts.json#magic-shimmer",
+        "offset": 0.03,
+        "gain": -2
+      }
+    ],
+    "output": {
+      "normalize": -1
+    }
+  }
+]
