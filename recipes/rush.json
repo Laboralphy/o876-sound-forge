@@ -1,0 +1,92 @@
+[
+  {
+    "name": "rush-whoosh",
+    "seed": 71,
+    "params": {
+      "wave_type": "noise",
+      "p_env_attack": 0.5,
+      "p_env_sustain": 0.18,
+      "p_env_punch": 0.3,
+      "p_env_decay": 0.2,
+      "p_base_freq": 0.22,
+      "p_freq_ramp": 0.1,
+      "p_pha_offset": 0.12,
+      "p_pha_ramp": 0.1,
+      "p_lpf_freq": 0.3,
+      "p_lpf_ramp": 0.22,
+      "p_lpf_resonance": 0.45,
+      "p_hpf_freq": 0.03,
+      "sound_vol": 0.4
+    },
+    "output": { "normalize": -1 }
+  },
+  {
+    "name": "rush-dash",
+    "seed": 72,
+    "params": {
+      "wave_type": "noise",
+      "p_env_attack": 0.36,
+      "p_env_sustain": 0.12,
+      "p_env_punch": 0.5,
+      "p_env_decay": 0.14,
+      "p_base_freq": 0.28,
+      "p_freq_ramp": 0.16,
+      "p_pha_offset": 0.18,
+      "p_pha_ramp": 0.15,
+      "p_lpf_freq": 0.35,
+      "p_lpf_ramp": 0.3,
+      "p_lpf_resonance": 0.5,
+      "p_hpf_freq": 0.05,
+      "sound_vol": 0.4
+    },
+    "output": { "normalize": -1 }
+  },
+  {
+    "name": "rush-flutter",
+    "seed": 73,
+    "params": {
+      "wave_type": "noise",
+      "p_env_attack": 0.48,
+      "p_env_sustain": 0.2,
+      "p_env_punch": 0.2,
+      "p_env_decay": 0.2,
+      "p_base_freq": 0.18,
+      "p_freq_ramp": 0.08,
+      "p_vib_strength": 0.55,
+      "p_vib_speed": 0.55,
+      "p_lpf_freq": 0.35,
+      "p_lpf_ramp": 0.15,
+      "p_lpf_resonance": 0.3,
+      "p_hpf_freq": 0.05,
+      "sound_vol": 0.4
+    },
+    "output": { "normalize": -1 }
+  },
+  {
+    "name": "rush-rumble",
+    "seed": 74,
+    "params": {
+      "wave_type": "noise",
+      "p_env_attack": 0.5,
+      "p_env_sustain": 0.18,
+      "p_env_punch": 0.2,
+      "p_env_decay": 0.2,
+      "p_base_freq": 0.1,
+      "p_freq_ramp": 0.08,
+      "p_lpf_freq": 0.22,
+      "p_lpf_ramp": 0.1,
+      "p_lpf_resonance": 0.3,
+      "sound_vol": 0.45
+    },
+    "output": { "normalize": -1 }
+  },
+  {
+    "name": "rush-charge",
+    "layers": [
+      { "sound": "#rush-whoosh" },
+      { "sound": "#rush-flutter", "gain": -6 },
+      { "sound": "#rush-rumble", "gain": -4 }
+    ],
+    "output": { "normalize": -1 }
+  }
+]
